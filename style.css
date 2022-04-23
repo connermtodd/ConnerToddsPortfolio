@@ -1,0 +1,17 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+.heading-welcome, .heading-title {
+    text-shadow: slategray;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 3px;
+    border-color: blueviolet;
+}
