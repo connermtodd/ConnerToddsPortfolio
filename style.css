@@ -36,6 +36,11 @@ header nav ul li a {
 .heading-welcome, .heading-title {
     text-shadow: 2px 2px slategray;
     text-align: center;
+    padding-top: 40px;
+}
+
+.heading-welcome {
+    transform: rotate(-4deg);
 }
 
 .profile-img {
@@ -60,13 +65,18 @@ div {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 }
 
-  h2 {
+  h2, .about h2 {
     width: 170px;
     border: 1px solid white;
     padding: 10px;
     margin: 5px;
     background-color: slategrey;
     box-shadow: 1px 1px blueviolet;
+  }
+
+  .contact {
+      padding-top: 50px;
   }
